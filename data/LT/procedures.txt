@@ -1,0 +1,1 @@
+LTFM:SID:D,E,C,G,H,F:STAR:A,B
