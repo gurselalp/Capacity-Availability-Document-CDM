@@ -29,7 +29,7 @@ procedures.txt
   - Format ``<AIRPORT>:SID:<letters or procedures name>:STAR:<letters or procedures name>`` example: ``LEBL:SID:SENIA%Q,LARPA%Q,T:STAR:BISBA%W,LESBA%W,Z,Q``
     - AIRPORT: ICAO code.
     - letters: last letter of SID/STAR, set all the valid letters. Empty if all are valid.
-    - (OPTIONAL) Runway or config designator can be added at the end of each procedure (Example: P/25,SPESA%C/07, etc.) - Note: If designator is selected in the Dashboard Data maintenance, the system will only look for the procedures for the specified runway.
+    - (OPTIONAL) Runway or config designator can be added at the end of each procedure (Example: P/25,SPESA%C/WEST,SPESA%C/TEST, etc.) - Note: If designator is selected in the Dashboard Data maintenance, the system will only look for the procedures for the specified runway.
   - The decision of which procedure to choose will be:
     - If pilot filed SID/STAR is in the valid list, then it will selected.
     - If pilot does not file a SID/STAR, the first in the list is chosen (order is by given in letters).
